@@ -5,6 +5,7 @@
 This project demonstrates **efficient fine-tuning of large language models (LLMs)** using **LoRA (Low-Rank Adaptation)** and **PEFT (Parameter-Efficient Fine-Tuning)** on a **BLOOM model**. By leveraging **8-bit quantization with bitsandbytes**, the project enables training and inference of large models with **reduced GPU memory and computation requirements**.
 
 The model is fine-tuned on the **[Abirate/english_quotes](https://huggingface.co/datasets/Abirate/english_quotes)** dataset, allowing it to generate **quotes with contextual tags**. The workflow showcases an **end-to-end solution** for memory-efficient adaptation of massive language models.
+
 ![Project Demo](img.png)  
 
 ---
